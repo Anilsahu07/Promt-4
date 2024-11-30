@@ -1,0 +1,134 @@
+@media (max-width:550px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        padding: 20px 0;
+    }
+
+    .box1{
+        width:90%;
+        height: auto;
+        /* text-align: center; */
+    }
+
+    nav i:hover{
+        color: rgb(89, 121, 121);
+    }
+
+    .box1 nav i{
+        font-size: 33px;
+    }
+
+    .box1-content{
+        text-align: center;
+        width: 100%;
+    }
+
+    .head h1{
+        font-size: 40px;
+    }
+
+    .head h2{
+        font-size: 25px;
+    }
+
+    .para p{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .box1-footer{
+        margin-top: 50px;
+    }
+
+    .foot-head h2{
+        font-size: 22px;
+    }
+
+    .foot-head p{
+        font-size: 18px;
+    }
+
+    .end-boxes{
+        margin-top: 20px;
+        justify-content: center;
+        position: relative;
+        left: 0;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .end1{
+        width: 90%;
+    }
+
+    .end-content p{
+        font-size: 22px;
+    }
+
+    .star i{
+        font-size: 16px;
+    }
+
+    .end-content h5{
+        font-size: 15px;
+    }
+    .end2{
+        width: 90%;
+    }
+
+    .box2-content{
+        width: 90%;
+    }
+
+    .box2-down{
+        margin-top: 20px;
+        justify-content: space-around;
+        gap: 0;
+        
+    }
+
+    .down1{
+        padding: 10px 20px;
+    }
+
+    .box2-img{
+        height: 270px;
+    }
+
+    .down-buttons{
+        gap: 0;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    .button2 p{
+        font-size: 14px;
+    }
+
+    .button2{
+        justify-content: space-around;
+    }
+
+    .foot-head h4{
+        font-size: 20px;
+    }
+
+    .foot-head p{
+        font-size: 14px;
+    }
+
+    .button1{
+        padding: 15px 20px;
+    }
+
+    .img-icons i:hover{
+        color: rgb(89, 121, 121);
+    }
+
+    .img-icons i{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgb(230, 176, 42);
+    font-family: poppins;
+}
+
+.content{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.box1{
+    background: url(perfume1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 630px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.box2-content{
+    width: 25%;
+    height: 630px;
+    /* padding: 10px 20px; */
+    border-radius: 20px;
+    background-color: rgb(88, 78, 78);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav i{
+    color: white;
+    font-size: 25px;
+}
+
+.box1-content{
+    margin-top: 8vw;
+    color: white;
+}
+
+.box1-content {
+    width: 60%;
+}
+
+.box1-content h1{
+    font-size: 2.5vw;
+}
+
+.box1-content h2{
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.box1-content p{
+    font-size: 13px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.box1-footer{
+    color: white;
+    margin-top: 3vw;
+}
+
+.foot-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-head h2{
+    font-size: 1.3vw;
+    font-family: sdjbf;
+}
+
+.foot-head p{
+    font-size: 12px;
+    color: rgb(255, 179, 0);
+}
+
+.foot-head span i{
+    color: white;
+}
+
+.end-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.end1{
+    background: url(perfume3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 200px;
+    margin-top: 2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 15px;
+}
+
+.end1 p{
+    font-size: 10px;
+}
+
+.star i{
+    font-size: 10px;
+    color: rgb(255, 179, 0);
+}
+
+.end1 h5{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.end-content{
+    background-color: rgb(87, 85, 85);
+    padding: 5px 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.end2{
+    background: url(perfume2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 200px;
+    margin-top: 2vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 15px;
+}
+
+.end2 p{
+    font-size: 10px;
+}
+
+.star i{
+    font-size: 10px;
+    color: rgb(255, 179, 0);
+}
+
+.end2 h5{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.end-content{
+    background-color: rgb(87, 85, 85);
+    padding: 5px 6px;
+}
+
+#white1{
+    color: white;
+}
+
+#white2{
+    color: white;
+}
+
+.box2-img img{
+    width: 100%;
+    height: 330px;
+    border-radius: 20px;
+}
+
+.box2-img{
+    background: url(perfume2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    padding: 20px 20px;
+}
+
+.img-icons{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.img-icons i{
+    font-size: 25px;
+}
+
+.down-mid{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mid1 p{
+    font-size: 15px;
+    position: relative;
+    color: rgb(88, 78, 78);
+}
+
+.mid1 p::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 208, 0);
+    width: 13px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+.box2-down{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+
+.down1 h5{
+    font-size: 16px;
+    color: white;
+}
+
+.down1 p{
+    font-size: 12px;
+    color: rgb(255, 208, 0);
+}
+
+.down1{
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.659);
+    border-radius: 15px;
+}
+
+.down-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.foot-star i{
+    font-size: 12px;
+    color: rgb(255, 196, 0);
+}
+
+.foot-head{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.foot-head h4{
+    font-size: 20px;
+    font-family: sdjb;
+    color: white;
+}
+
+.foot-head p{
+    font-size: 8px;
+    color: white;
+}
+
+.down-para p{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.down-buttons{
+    /* margin-top: 15px; */
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.button1{
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+.button1 i{
+    color: white;
+    font-size: 18px;
+}
+
+.button2{
+    display: flex;
+    padding: 15px 15px;
+    gap: 130px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: none;
+}
+
+.button2 i{
+    color: white;
+    font-size: 18px;
+    color: rgb(255, 191, 0);
+}
+
+.button2 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
